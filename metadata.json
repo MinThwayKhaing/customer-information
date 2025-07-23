@@ -1,0 +1,6 @@
+{
+  "name": "Customer Information Collector",
+  "description": "A web application for customers to share their location and provide personal information for service installation. The interface supports both English and Thai languages.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
