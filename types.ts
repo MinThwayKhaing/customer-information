@@ -24,6 +24,7 @@ export interface CustomerInfo {
       nickname: string;
     kycFile: File | null;
     idCardAddress: string;
-    
+    idCardFile: File | null;
+
     presentAddress: string;
 }

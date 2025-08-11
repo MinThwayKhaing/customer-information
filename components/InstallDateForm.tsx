@@ -22,7 +22,7 @@ const InstallDateForm: React.FC<Props> = ({ translations, userId, keyParam, onCo
     setStatus('idle');
 
     const { webhookUrl, makeApiKey } = config;
-    const fullUrl = `${webhookUrl}?method=installDate`;
+    const fullUrl = `https://hook.eu2.make.com/sutkduusb07cedxmtli0ccnumn5juakd?method=installDate`;
 
     const data = new FormData();
     data.append('userId', userId);
@@ -61,7 +61,15 @@ const InstallDateForm: React.FC<Props> = ({ translations, userId, keyParam, onCo
           <label className="block text-sm font-medium text-gray-600 dark:text-gray-300">
             {translations.installDateLabel}
           </label>
-          <Input type="date" value={installDate} onChange={(e) => setInstallDate(e.target.value)} required disabled={submitting} />
+        <Input
+  type="date"
+  value={installDate}
+  onChange={(e) => setInstallDate(e.target.value)}
+  required
+  disabled={submitting}
+  min={new Date(Date.now() + 86400000).toISOString().split('T')[0]} // วันพรุ่งนี้
+/>
+
         </div>
         <div>
           <label className="block text-sm font-medium text-gray-600 dark:text-gray-300">

@@ -19865,33 +19865,39 @@
     ["en" /* EN */]: {
       // App Title & Nav
       appTitle: "Customer Data Entry",
-      navLocation: "Location",
-      navCustomerInfo: "Customer Info",
+      navLocation: "Installation Location",
+      navCustomerInfo: "Customer Information",
       // Language Switcher
       langTh: "\u0E44\u0E17\u0E22",
       langEn: "English",
       // Location Form
-      locationHeader: "Share Installation Location",
-      locationInstruction: "Please share the location or the nearby place for installation. You can provide a Google Maps link, latitude/longitude, or a description of a nearby landmark.",
+      locationHeader: "Share Your Installation Location",
+      locationInstruction: "Please share the location where you want the installation to take place. You can provide a Google Maps link, coordinates (latitude/longitude), or a nearby landmark for easier identification.",
       locationPlaceholder: "e.g., Google Maps link, 13.7563\xB0 N, 100.5018\xB0 E, or near Victory Monument",
       // Customer Info Form
       customerInfoHeader: "Customer Information",
-      nameLabel: "Name",
+      nameLabel: "Full Name",
       namePlaceholder: "Enter your full name",
-      nicknameLabel: "Nick Name",
-      nicknamePlaceholder: "Enter your nick name",
+      nicknameLabel: "Nickname",
+      nicknamePlaceholder: "Enter your nickname (optional)",
+      idCardFileLabel: "Upload ID Card Photo",
       phoneLabel: "Phone Number",
       phonePlaceholder: "Enter your phone number",
-      emailLabel: "Email",
+      emailLabel: "Email Address",
       emailPlaceholder: "Enter your email address",
       kycLabel: "KYC Document (e.g., ID Card)",
-      kycButtonText: "Upload File",
-      noFileChosen: "No file chosen",
+      kycButtonText: "Upload Document",
+      do: "What You Should Do",
+      dont: "What You Should Avoid",
+      kycGuideText: `Please make sure your KYC document (e.g., ID card) is clear and legible. 
+    Upload the entire document showing all details. Avoid glare, shadows, or blurriness 
+    to prevent delays in verification.`,
+      noFileChosen: "No file selected",
       idCardAddressLabel: "Address as per ID Card",
       idCardAddressPlaceholder: "Enter the address shown on your ID card",
-      presentAddressLabel: "Present Address (for installation)",
+      presentAddressLabel: "Current Address (for installation)",
       presentAddressPlaceholder: "Enter the full address for installation",
-      //Installation Date
+      // Installation Date & Time
       installDateTimeLabel: "Preferred Installation Date & Time",
       installDateTimePlaceholder: "Select date and time",
       // Buttons
@@ -19911,9 +19917,9 @@
       langTh: "\u0E44\u0E17\u0E22",
       langEn: "English",
       // Location Form
-      locationHeader: "\u0E42\u0E1B\u0E23\u0E14\u0E41\u0E0A\u0E23\u0E4C\u0E15\u0E4D\u0E32\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07",
-      locationInstruction: "\u0E42\u0E1B\u0E23\u0E14\u0E41\u0E0A\u0E23\u0E4C\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07 \u0E2B\u0E23\u0E37\u0E2D\u0E41\u0E08\u0E49\u0E07\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E43\u0E01\u0E25\u0E49\u0E40\u0E04\u0E35\u0E22\u0E07 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E1E\u0E37\u0E49\u0E19\u0E17\u0E35\u0E48\u0E43\u0E2B\u0E49\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23 \u0E17\u0E48\u0E32\u0E19\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E41\u0E0A\u0E23\u0E4C\u0E25\u0E34\u0E07\u0E01\u0E4C Google Map, \u0E25\u0E30\u0E15\u0E34\u0E08\u0E39\u0E14\u0E41\u0E25\u0E30\u0E25\u0E2D\u0E07\u0E08\u0E34\u0E08\u0E39\u0E14, \u0E2B\u0E23\u0E37\u0E2D\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E17\u0E35\u0E48\u0E2A\u0E31\u0E07\u0E40\u0E01\u0E15\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22",
-      locationPlaceholder: "\u0E40\u0E0A\u0E48\u0E19 \u0E25\u0E34\u0E07\u0E01\u0E4C Google Maps, 13.7563\xB0 N, 100.5018\xB0 E, \u0E2B\u0E23\u0E37\u0E2D \u0E43\u0E01\u0E25\u0E49\u0E2D\u0E19\u0E38\u0E2A\u0E32\u0E27\u0E23\u0E35\u0E22\u0E4C\u0E0A\u0E31\u0E22\u0E2A\u0E21\u0E23\u0E20\u0E39\u0E21\u0E34",
+      locationHeader: "\u0E42\u0E1B\u0E23\u0E14\u0E41\u0E0A\u0E23\u0E4C\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07",
+      locationInstruction: "\u0E01\u0E23\u0E38\u0E13\u0E32\u0E41\u0E08\u0E49\u0E07\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07 \u0E42\u0E14\u0E22\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E2A\u0E48\u0E07\u0E40\u0E1B\u0E47\u0E19\u0E25\u0E34\u0E07\u0E01\u0E4C Google Maps, \u0E1E\u0E34\u0E01\u0E31\u0E14\u0E25\u0E30\u0E15\u0E34\u0E08\u0E39\u0E14-\u0E25\u0E2D\u0E07\u0E08\u0E34\u0E08\u0E39\u0E14 \u0E2B\u0E23\u0E37\u0E2D\u0E2A\u0E16\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E43\u0E01\u0E25\u0E49\u0E40\u0E04\u0E35\u0E22\u0E07 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E30\u0E14\u0E27\u0E01\u0E43\u0E19\u0E01\u0E32\u0E23\u0E04\u0E49\u0E19\u0E2B\u0E32",
+      locationPlaceholder: "\u0E40\u0E0A\u0E48\u0E19 \u0E25\u0E34\u0E07\u0E01\u0E4C Google Maps, 13.7563\xB0 N, 100.5018\xB0 E, \u0E2B\u0E23\u0E37\u0E2D\u0E43\u0E01\u0E25\u0E49\u0E2D\u0E19\u0E38\u0E2A\u0E32\u0E27\u0E23\u0E35\u0E22\u0E4C\u0E0A\u0E31\u0E22\u0E2A\u0E21\u0E23\u0E20\u0E39\u0E21\u0E34",
       // Customer Info Form
       customerInfoHeader: "\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E25\u0E39\u0E01\u0E04\u0E49\u0E32",
       nameLabel: "\u0E0A\u0E37\u0E48\u0E2D-\u0E19\u0E32\u0E21\u0E2A\u0E01\u0E38\u0E25",
@@ -19921,25 +19927,31 @@
       nicknameLabel: "\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E25\u0E48\u0E19",
       nicknamePlaceholder: "\u0E23\u0E30\u0E1A\u0E38\u0E0A\u0E37\u0E48\u0E2D\u0E40\u0E25\u0E48\u0E19 (\u0E16\u0E49\u0E32\u0E21\u0E35)",
       phoneLabel: "\u0E40\u0E1A\u0E2D\u0E23\u0E4C\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C",
-      phonePlaceholder: "\u0E01\u0E23\u0E2D\u0E01\u0E40\u0E1A\u0E2D\u0E23\u0E4C\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19",
+      phonePlaceholder: "\u0E01\u0E23\u0E2D\u0E01\u0E2B\u0E21\u0E32\u0E22\u0E40\u0E25\u0E02\u0E42\u0E17\u0E23\u0E28\u0E31\u0E1E\u0E17\u0E4C\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19",
       emailLabel: "\u0E2D\u0E35\u0E40\u0E21\u0E25",
-      emailPlaceholder: "\u0E01\u0E23\u0E2D\u0E01\u0E2D\u0E35\u0E40\u0E21\u0E25\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19",
+      emailPlaceholder: "\u0E01\u0E23\u0E2D\u0E01\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E2D\u0E35\u0E40\u0E21\u0E25\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19",
       kycLabel: "\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E15\u0E31\u0E27\u0E15\u0E19 (\u0E40\u0E0A\u0E48\u0E19 \u0E1A\u0E31\u0E15\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19)",
-      kycButtonText: "\u0E2D\u0E31\u0E1B\u0E42\u0E2B\u0E25\u0E14\u0E44\u0E1F\u0E25\u0E4C",
+      kycButtonText: "\u0E2D\u0E31\u0E1B\u0E42\u0E2B\u0E25\u0E14\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23",
       noFileChosen: "\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E44\u0E1F\u0E25\u0E4C",
+      do: "\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E04\u0E27\u0E23\u0E17\u0E33",
+      dont: "\u0E2A\u0E34\u0E48\u0E07\u0E17\u0E35\u0E48\u0E44\u0E21\u0E48\u0E04\u0E27\u0E23\u0E17\u0E33",
+      kycGuideText: `\u0E42\u0E1B\u0E23\u0E14\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E27\u0E48\u0E32\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23\u0E22\u0E37\u0E19\u0E22\u0E31\u0E19\u0E15\u0E31\u0E27\u0E15\u0E19\u0E02\u0E2D\u0E07\u0E04\u0E38\u0E13 (\u0E40\u0E0A\u0E48\u0E19 \u0E1A\u0E31\u0E15\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19) \u0E0A\u0E31\u0E14\u0E40\u0E08\u0E19\u0E41\u0E25\u0E30\u0E2D\u0E48\u0E32\u0E19\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22 
+    \u0E01\u0E23\u0E38\u0E13\u0E32\u0E2D\u0E31\u0E1B\u0E42\u0E2B\u0E25\u0E14\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23\u0E17\u0E31\u0E49\u0E07\u0E09\u0E1A\u0E31\u0E1A\u0E17\u0E35\u0E48\u0E41\u0E2A\u0E14\u0E07\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E04\u0E23\u0E1A\u0E16\u0E49\u0E27\u0E19 \u0E2B\u0E25\u0E35\u0E01\u0E40\u0E25\u0E35\u0E48\u0E22\u0E07\u0E41\u0E2A\u0E07\u0E2A\u0E30\u0E17\u0E49\u0E2D\u0E19 \u0E40\u0E07\u0E32 \u0E2B\u0E23\u0E37\u0E2D\u0E20\u0E32\u0E1E\u0E40\u0E1A\u0E25\u0E2D 
+    \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E1B\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E19\u0E04\u0E27\u0E32\u0E21\u0E25\u0E48\u0E32\u0E0A\u0E49\u0E32\u0E43\u0E19\u0E01\u0E32\u0E23\u0E15\u0E23\u0E27\u0E08\u0E2A\u0E2D\u0E1A\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25`,
       idCardAddressLabel: "\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E15\u0E32\u0E21\u0E1A\u0E31\u0E15\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19",
-      idCardAddressPlaceholder: "\u0E01\u0E23\u0E2D\u0E01\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E15\u0E32\u0E21\u0E17\u0E35\u0E48\u0E41\u0E2A\u0E14\u0E07\u0E1A\u0E19\u0E1A\u0E31\u0E15\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19",
+      idCardAddressPlaceholder: "\u0E01\u0E23\u0E2D\u0E01\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E15\u0E32\u0E21\u0E1A\u0E31\u0E15\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19",
       presentAddressLabel: "\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E1B\u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19 (\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07)",
-      presentAddressPlaceholder: "\u0E01\u0E23\u0E2D\u0E01\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E40\u0E02\u0E49\u0E32\u0E23\u0E31\u0E1A\u0E1A\u0E23\u0E34\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07",
-      //Installation Date
-      installDateTimeLabel: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E41\u0E25\u0E30\u0E40\u0E27\u0E25\u0E32\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07",
-      installDateTimePlaceholder: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E41\u0E25\u0E30\u0E40\u0E27\u0E25\u0E32",
+      presentAddressPlaceholder: "\u0E01\u0E23\u0E2D\u0E01\u0E17\u0E35\u0E48\u0E2D\u0E22\u0E39\u0E48\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07",
+      idCardFileLabel: "\u0E2D\u0E31\u0E1B\u0E42\u0E2B\u0E25\u0E14\u0E44\u0E1F\u0E25\u0E4C\u0E1A\u0E31\u0E15\u0E23\u0E1B\u0E23\u0E30\u0E0A\u0E32\u0E0A\u0E19",
+      // Installation Date & Time
+      installDateTimeLabel: "\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E41\u0E25\u0E30\u0E40\u0E27\u0E25\u0E32\u0E17\u0E35\u0E48\u0E2A\u0E30\u0E14\u0E27\u0E01\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E15\u0E34\u0E14\u0E15\u0E31\u0E49\u0E07",
+      installDateTimePlaceholder: "\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E27\u0E31\u0E19\u0E17\u0E35\u0E48\u0E41\u0E25\u0E30\u0E40\u0E27\u0E25\u0E32\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23",
       // Buttons
       submitButton: "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25",
       submittedMessage: "\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25\u0E40\u0E23\u0E35\u0E22\u0E1A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E25\u0E49\u0E27!",
       nextButton: "\u0E16\u0E31\u0E14\u0E44\u0E1B",
       backButton: "\u0E22\u0E49\u0E2D\u0E19\u0E01\u0E25\u0E31\u0E1A",
-      submitting: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E2A\u0E48\u0E07...",
+      submitting: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E2A\u0E48\u0E07\u0E02\u0E49\u0E2D\u0E21\u0E39\u0E25...",
       processing: "\u0E01\u0E33\u0E25\u0E31\u0E07\u0E14\u0E33\u0E40\u0E19\u0E34\u0E19\u0E01\u0E32\u0E23..."
     }
   };
@@ -20153,6 +20165,7 @@
       email: "",
       kycFile: null,
       idCardAddress: "",
+      idCardFile: null,
       nickname: "",
       presentAddress: ""
     };
@@ -20162,20 +20175,24 @@
     const [submissionError, setSubmissionError] = (0, import_react3.useState)(null);
     const resetForm = () => {
       setFormData(initialFormState);
-      const fileInput = document.getElementById("kycFile-input");
-      if (fileInput)
-        fileInput.value = "";
+      const kycInput = document.getElementById("kycFile-input");
+      const idCardInput = document.getElementById("idCardFile-input");
+      if (kycInput)
+        kycInput.value = "";
+      if (idCardInput)
+        idCardInput.value = "";
     };
     const handleChange = (e) => {
       const { name, value } = e.target;
       setFormData((prev) => ({ ...prev, [name]: value }));
     };
     const handleFileChange = (e) => {
-      if (e.target.files && e.target.files[0]) {
-        setFormData((prev) => ({ ...prev, kycFile: e.target.files[0] }));
-      } else {
-        setFormData((prev) => ({ ...prev, kycFile: null }));
-      }
+      const { name, files } = e.target;
+      const file = files && files[0] ? files[0] : null;
+      setFormData((prev) => ({
+        ...prev,
+        [name]: file
+      }));
     };
     const handleSubmit = async (e) => {
       e.preventDefault();
@@ -20195,6 +20212,9 @@
       data.append("presentAddress", formData.presentAddress);
       if (formData.kycFile) {
         data.append("kycFile", formData.kycFile);
+      }
+      if (formData.idCardFile) {
+        data.append("idCardFile", formData.idCardFile);
       }
       try {
         const response = await fetch(fullUrl, {
@@ -20236,19 +20256,7 @@
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("label", { htmlFor: "nickname", className: "block mb-2 text-sm font-medium text-gray-600 dark:text-gray-300", children: translations2.nicknameLabel }),
-            /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(
-              Input_default,
-              {
-                id: "nickname",
-                name: "nickname",
-                type: "text",
-                value: formData.nickname,
-                onChange: handleChange,
-                placeholder: translations2.nicknamePlaceholder,
-                required: false,
-                disabled: isSubmitting
-              }
-            )
+            /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Input_default, { id: "nickname", name: "nickname", type: "text", value: formData.nickname, onChange: handleChange, placeholder: translations2.nicknamePlaceholder, required: false, disabled: isSubmitting })
           ] }),
           /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { children: [
             /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("label", { htmlFor: "phone", className: "block mb-2 text-sm font-medium text-gray-600 dark:text-gray-300", children: translations2.phoneLabel }),
@@ -20257,11 +20265,34 @@
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("label", { htmlFor: "email", className: "block mb-2 text-sm font-medium text-gray-600 dark:text-gray-300", children: translations2.emailLabel }),
-          /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Input_default, { id: "email", name: "email", type: "email", value: formData.email, onChange: handleChange, placeholder: translations2.emailPlaceholder, required: true, disabled: isSubmitting })
+          /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(Input_default, { id: "email", name: "email", type: "email", value: formData.email, onChange: handleChange, placeholder: translations2.emailPlaceholder, required: false, disabled: isSubmitting })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { children: [
+          /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("label", { className: "block mb-2 text-sm font-medium text-gray-600 dark:text-gray-300", children: translations2.idCardFileLabel || "Upload ID Card Photo" }),
+          /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(FileUpload_default, { id: "idCardFile-input", name: "idCardFile", buttonText: translations2.idCardFileButtonText || "Choose ID Card File", noFileText: translations2.noFileChosen, onChange: handleFileChange, file: formData.idCardFile, disabled: isSubmitting })
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("label", { className: "block mb-2 text-sm font-medium text-gray-600 dark:text-gray-300", children: translations2.kycLabel }),
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)(FileUpload_default, { id: "kycFile-input", name: "kycFile", buttonText: translations2.kycButtonText, noFileText: translations2.noFileChosen, onChange: handleFileChange, file: formData.kycFile, disabled: isSubmitting })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "mb-4", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("p", { className: "mb-2 text-sm font-medium text-gray-700 dark:text-gray-300", children: translations2.kycGuideText || "How to take a proper KYC photo:" }),
+          /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-4", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "border rounded-lg p-3 bg-green-50 dark:bg-green-500/10", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("p", { className: "text-green-700 dark:text-green-300 text-sm font-semibold mb-1", children: [
+                "\u2714 ",
+                translations2.do
+              ] }),
+              /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { src: "https://storage.googleapis.com/my-kyc-images/do.jpg", alt: "KYC Do", className: "rounded-md shadow-sm w-full" })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { className: "border rounded-lg p-3 bg-red-50 dark:bg-red-500/10", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("p", { className: "text-red-700 dark:text-red-300 text-sm font-semibold mb-1", children: [
+                "\u2716 ",
+                translations2.dont
+              ] }),
+              /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("img", { src: "https://storage.googleapis.com/my-kyc-images/dont.jpg", alt: "KYC Don't", className: "rounded-md shadow-sm w-full" })
+            ] })
+          ] })
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime6.jsxs)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_runtime6.jsx)("label", { htmlFor: "idCardAddress", className: "block mb-2 text-sm font-medium text-gray-600 dark:text-gray-300", children: translations2.idCardAddressLabel }),
@@ -20395,7 +20426,7 @@
       setSubmitting(true);
       setStatus("idle");
       const { webhookUrl, makeApiKey } = config;
-      const fullUrl = `${webhookUrl}?method=installDate`;
+      const fullUrl = `https://hook.eu2.make.com/sutkduusb07cedxmtli0ccnumn5juakd?method=installDate`;
       const data = new FormData();
       data.append("userId", userId);
       data.append("key", keyParam);
@@ -20425,7 +20456,17 @@
       /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-6", children: [
         /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("label", { className: "block text-sm font-medium text-gray-600 dark:text-gray-300", children: translations2.installDateLabel }),
-          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(Input_default, { type: "date", value: installDate, onChange: (e) => setInstallDate(e.target.value), required: true, disabled: submitting })
+          /* @__PURE__ */ (0, import_jsx_runtime10.jsx)(
+            Input_default,
+            {
+              type: "date",
+              value: installDate,
+              onChange: (e) => setInstallDate(e.target.value),
+              required: true,
+              disabled: submitting,
+              min: new Date(Date.now() + 864e5).toISOString().split("T")[0]
+            }
+          )
         ] }),
         /* @__PURE__ */ (0, import_jsx_runtime10.jsxs)("div", { children: [
           /* @__PURE__ */ (0, import_jsx_runtime10.jsx)("label", { className: "block text-sm font-medium text-gray-600 dark:text-gray-300", children: translations2.installTimeLabel }),
